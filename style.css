@@ -1,0 +1,101 @@
+/* Estilos do índice (barra de navegação) */
+#indice {
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  padding: 15px;
+  position: fixed; /* Fixa a barra no topo */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Garante que a barra fique acima de outros elementos */
+}
+
+#indice p {
+  margin: 0; /* Remove margens do parágrafo dentro da barra */
+}
+
+/* Estilos da lista no índice */
+#indice ul {
+  list-style: none; /* Remove os marcadores da lista */
+  display: flex; /* Exibe a lista em linha */
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se necessário */
+  justify-content: center; /* Centraliza os itens na barra */
+  margin: 10px 0 0; /* Margem superior */
+}
+
+#indice li {
+  margin: 0 15px; /* Margem entre os itens da lista */
+}
+
+#indice a {
+  color: white; /* Cor do texto dos links */
+  text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+#indice a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Adiciona margem ao corpo para compensar a altura da barra fixa */
+body {
+  margin-top: 100px; /* Ajuste este valor conforme a altura da barra */
+}
+/* Resetando margens e padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos do corpo */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4CAF50; /* Verde */
+}
+
+/* Estilos dos sub-títulos */
+h2 {
+  margin: 20px 0 10px;
+  color: #333;
+}
+
+/* Estilos dos links */
+a {
+  color: #4CAF50; /* Verde */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos das listas */
+ul, ol {
+  margin-left: 20px;
+}
+
+/* Estilos das imagens */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+}
+
+/* Estilos do rodapé */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #777;
+}
