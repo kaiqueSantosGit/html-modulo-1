@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2 id="indice">Índice</h2>
+    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <ul>
+        <li><a href="#historia-da-computadores">História dos computadores</a></li>
+        <li><a href="#o-que-sao-clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#o-que-sao-servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura-basica-html">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas-ordenadas-e-nao-ordenadas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#links-ref">Links de referências</a></li>
+    </ul>
+
+    <h2 id="historia-da-computadores">História dos computadores</h2>
+    <p>A história dos computadores é fascinante, principalmente porque mostra como a tecnologia evoluiu 
+    rapidamente em um período relativamente curto. Quando comecei a estudar esse assunto, percebi que os primeiros computadores eram enormes, 
+    ocupavam salas inteiras, e eram bastante limitados em comparação com os dispositivos que usamos hoje. Um bom exemplo é o <strong>ENIAC</strong>, 
+    considerado o primeiro computador eletrônico de uso geral. Ele foi construído na década de 1940 e podia realizar cálculos complexos, mas exigia 
+    várias pessoas para operá-lo.</p>
+    <p>Com o tempo, os computadores foram ficando menores e mais potentes, principalmente após a <u>invenção do transistor nos anos 1950</u>, que substituiu 
+    as válvulas, e do microprocessador nos anos 1970. Esses avanços tornaram possível o surgimento dos computadores pessoais, que revolucionaram o modo 
+    como trabalhamos, nos comunicamos e até nos divertimos.</p>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <h2 id="o-que-sao-clients">O que são <i>Clients</i>?</h2>
+    <p> Quando comecei a aprender sobre clients no contexto de redes e sistemas, percebi que eles desempenham um papel 
+    fundamental na comunicação entre dispositivos. Basicamente, um client é qualquer dispositivo ou software que solicita serviços ou informações de um servidor. 
+    Esse conceito é a base do modelo cliente-servidor, que é muito utilizado na internet.
+
+    <p>Por exemplo, quando abrimos o navegador e acessamos um site, nosso navegador está funcionando como um client. Ele envia uma solicitação para o servidor do site 
+      (onde as informações estão armazenadas), e o servidor responde enviando os dados que vemos na tela, como imagens, textos e vídeos.</p>
+      
+    O que achei mais interessante é que os clients podem ser tanto dispositivos físicos, como um computador ou celular, quanto programas, como navegadores, 
+    aplicativos ou até mesmo jogos online. Tudo isso depende de um servidor para funcionar, pois é ele quem processa e fornece os recursos necessários para o client.</p>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <h2 id="o-que-sao-servers">O que são <i>Servers</i>?</h2>
+    <p>Um server é basicamente um computador ou programa que fica disponível para atender a várias solicitações ao mesmo tempo. Ele pode armazenar, processar e entregar dados 
+    para vários clients ao mesmo tempo. Um exemplo bem comum é quando acessamos um site: o servidor é responsável por armazenar as páginas, imagens e todos os arquivos que 
+    formam aquele site e enviá-los ao navegador (que é o client) sempre que alguém fizer uma solicitação.
+    O mais interessante é que existem vários tipos de servers, cada um com uma função específica. Temos, por exemplo:</p>
+    <ul>
+    <li><strong>Servidores de arquivos:</strong> armazenam e permitem o compartilhamento de arquivos entre vários clients.</li>
+    <li><strong>Servidores de e-mail:</strong> enviam e recebem mensagens eletrônicas.</li>
+    <li><strong>Servidores web:</strong> são responsáveis por armazenar e enviar as páginas que vemos na internet.</li>
+    </ul>
+    <p>O conceito de servidor também vai além de máquinas físicas; eles podem ser virtuais, rodando em ambientes de cloud computing (computação em nuvem). 
+    Isso significa que um único servidor físico pode hospedar diversos servers virtuais, o que aumenta a eficiência e a escalabilidade.</p>
+   
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <h2 id="estrutura-basica-html">Como é uma estrutura básica de um HTML?</h2>
+    <p>HTML, uma das primeiras coisas que me chamou atenção foi a simplicidade da estrutura básica. Todo documento HTML segue uma estrutura padronizada, 
+    o que facilita tanto a leitura pelo navegador quanto a criação de páginas da web.</p>
+    <p>Aqui está um exemplo simples da estrutura básica de um <strong>HTML:</strong></p>
+    <p><img src="img/Captura de tela 2024-10-01 172057.png" alt=""></p>
+    <p>Agora, explicando cada parte:
+      <ol>
+        <li> <strong>"< !DOCTYPE html>"</strong> Essa linha informa ao navegador que estamos usando HTML5, a versão mais recente da linguagem. É essencial 
+          para garantir que o navegador interprete corretamente o documento.</li>
+        <li><strong>< html lang="pt-BR"></strong>A tag <strong>< html></strong>é o elemento raiz de qualquer página HTML. Aqui, o atributo <strong>lang="pt-BR"</strong>
+          indica que o idioma principal da página é o português do Brasil.</li>
+        <li><strong>< head></strong>: Dentro da tag <strong>< head></strong>, colocamos informações que não são exibidas diretamente na página, mas são importantes para 
+          o navegador e para os mecanismos de busca. Por exemplo, a tag <strong>< meta charset="UTF-8"></strong>** garante que os caracteres especiais (como acentos) sejam 
+          exibidos corretamente, enquanto <strong>**< meta name="viewport" content="width=device-width,</strong> initial-scale=1.0"> ajusta a página para ser bem visualizada 
+          em dispositivos móveis.</li>
+          <li> <strong>< title></title></strong>: Essa tag define o título da página, que aparece na aba do navegador. É importante tanto para a usabilidade quanto para SEO (otimização para mecanismos de busca).</li>
+          <li><strong>< body></strong>: O conteúdo visível da página fica dentro da tag <strong>< body></strong>. Aqui podemos inserir textos, imagens, vídeos, links, e muito mais.</li>
+      </ol>
+      <p>Dentro do <strong>< body></strong>, você verá tags como:</p>
+      <ul>
+        <li> <u>< h1></u>: Cabeçalhos (títulos). O <u>< h1></u> é o mais importante e deve ser usado uma vez por página, representando o título principal.</li>
+        <li> <u>< p></u>: Parágrafos de texto.</li>
+        <p>Esse é um exemplo básico, mas você pode adicionar muito mais elementos, como imagens, listas, tabelas, e até estilos e scripts para criar páginas mais interativas e atrativas.</p>
+      </ul>
+    </p>
+
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+    <h2 id="listas-ordenadas-e-nao-ordenadas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <p>uma das principais diferenças que aprendi foi entre listas ordenadas e listas não ordenadas. Ambas são utilizadas para organizar informações de forma clara e estruturada,
+       mas cada uma tem suas características e finalidades específicas.
+
+     <p>Listas Ordenadas</p>
+      As listas ordenadas, representadas pela tag <strong>< ol></ol></strong>, são usadas quando a sequência dos itens é importante. Por exemplo, quando queremos listar etapas a serem seguidas ou classificações 
+      em um concurso, utilizamos uma lista ordenada. Cada item na lista é numerado automaticamente pelo navegador, o que facilita a identificação da ordem. Veja um exemplo:
+    </p>
+    <p><img src="img/ol.png" alt="Exemplo de Lista Ordenada"></p>
+    <p>Neste exemplo, a ordem dos passos é crucial, pois segue uma sequência lógica.</p>
+    <p><strong>Listas Não Ordenadas</strong></p>
+    <p>Por outro lado, as listas não ordenadas, representadas pela tag <strong>< ul></strong>, são utilizadas quando a ordem dos itens não é relevante. Os itens em uma lista não ordenada são precedidos por marcadores (normalmente círculos ou quadrados),
+       indicando que a sequência não importa. Um exemplo seria listar itens de compras:</p>
+    <p><img src="img/ul.png" alt="Exemplo de Lista não Ordenada"></p>
+    <p>Aqui, não há uma ordem específica; todos os itens têm igual importância.</p>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+    <p><strong>Conclusão</strong></p>
+    <p>A escolha entre usar uma lista ordenada ou não ordenada depende da natureza das informações que estamos apresentando. Se a ordem é fundamental, optamos por uma lista ordenada. Se não, uma lista não ordenada é mais apropriada.</p>
+
+
+    <h2 id="links-ref">Links de referências</h2>
+    <p> links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <ul>
+        <li><a href="#">http://dio.me</a></li>
+        <li><a href="#">http://w3c.org</a></li>
+    </ul>
+
+</body>
+</html>
